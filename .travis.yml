@@ -33,4 +33,5 @@ before_install:
 
 script:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then generate_makefile EXT_glpk; make test; ./bin/EXT_glpk.exe; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then cmake $QUICKY_REPOSITORY/EXT_glpk; make; ./test_EXT_glpk; fi
 #EOF
