@@ -2,9 +2,18 @@ matrix:
   include:
     - os: linux
       sudo: required
-      dist: trusty
+      dist: focal
+      compiler: gcc
+    - os: linux
+      sudo: required
+      dist: bionic
+      compiler: gcc
+    - os: linux
+      sudo: required
+      dist: xenial
       compiler: gcc
     - os: osx
+      osx_image: xcode10.3
 
 language: cpp
 
