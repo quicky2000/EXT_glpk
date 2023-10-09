@@ -1,6 +1,19 @@
 Quicky tools wrapper for GLPK library.
+
+# Reference
+#-----------
 Official website for this library is: https://www.gnu.org/software/glpk
 
+## Debian base installation
+##-------------------------
+sudo apt-get install libglpk-dev
+
+## OpenSuse Tumbleweed installation
+##---------------------------------
+sudo zypper install glpk-devel
+
+# Licence
+#--------
 Please see LICENSE for info on the license.
 
 #EOF
