@@ -1,4 +1,10 @@
+# EXT_glpk
+#---------
+
 Quicky tools wrapper for GLPK library.
+
+Continuous integration on Travis-CI:
+https://app.travis-ci.com/github/quicky2000/EXT_glpk
 
 # Reference
 #-----------
